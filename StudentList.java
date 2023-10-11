@@ -7,7 +7,7 @@ public class StudentList {
 
 //      Check arguments
         if(args[0].equals("a")) {
-            System.out.println("Loading data ...");        
+            System.out.println("Loading data ...");   //Step#2 fix wrong argument     
             try {
             BufferedReader s = new BufferedReader(
                     new InputStreamReader(
