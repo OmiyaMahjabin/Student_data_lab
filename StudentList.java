@@ -1,6 +1,6 @@
 import java.io.*;
 import java.text.*;
-import java.util.*;
+import java.util.*;//updated code style for better consistency
 public class StudentList {
     public static void main(String[] args) {
 
