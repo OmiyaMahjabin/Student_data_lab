@@ -14,7 +14,7 @@ public class StudentList {
                             new FileInputStream("students.txt")));
             String r = s.readLine();
             String i[] = r.split(",");          
-            for(String j : i) { System.out.println(j); }
+            for(String j : i) { System.out.println(j); }//Step#3 make improvements to variable names
             } catch (Exception e){}
             System.out.println("Data Loaded.");
         }
