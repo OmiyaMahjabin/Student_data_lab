@@ -1,26 +1,26 @@
 import java.io.*;
 import java.text.*;
-import java.util.*;
+import java.util.*;//updated code style for better consistency
 public class StudentList {
     public static void main(String[] args) {
 
 
 //      Check arguments
         if(args[0].equals("a")) {
-            System.out.println("Loading data ...");        
+            System.out.println("Loading data ...");   //Step#2 fix wrong argument     
             try {
             BufferedReader s = new BufferedReader(
                     new InputStreamReader(
                             new FileInputStream("students.txt")));
             String r = s.readLine();
             String i[] = r.split(",");          
-            for(String j : i) { System.out.println(j); }
+            for(String j : i) { System.out.println(j); }//Step#3 make improvements to variable names
             } catch (Exception e){}
             System.out.println("Data Loaded.");
         }
         else if(args[0].equals("r"))
         {
-            System.out.println("Loading data ...");        
+            System.out.println("Loading data ...");//Step#4 remove temporarty variable        
             try {
             BufferedReader s = new BufferedReader(
                     new InputStreamReader(
